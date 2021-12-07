@@ -4,9 +4,14 @@
   "description": "",
   "private": true,
   "dependencies": {
-    "lodash": "^4.17.21"
+    "csv-loader": "^3.0.3",
+    "file-loader": "^6.2.0",
+    "lodash": "^4.17.21",
+    "xml-loader": "^1.2.1"
   },
   "devDependencies": {
+    "css-loader": "^6.5.1",
+    "style-loader": "^3.3.1",
     "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1"
   },
