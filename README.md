@@ -9,3 +9,8 @@
 
 #### 04Development [开发](https://www.webpackjs.com/guides/development/)
 `webpack`、`webpack-cli`、`html-webpack-plugin`、`clean-webpack-plugin`、`webpack-dev-server`、`webpack-dev-middleware`
+
+> src
+> > views
+> public
+> > static
