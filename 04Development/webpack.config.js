@@ -7,10 +7,11 @@ const consoleGreen = '\033[32m'
 
 
 console.log(consoleGreen, '-------------------');
-console.log(consoleRed, '03OutputManagement')
+console.log(consoleRed, '04Development')
 console.log(consoleGreen, '-------------------');
 
 module.exports = {
+  mode: 'development',
   entry: {
     app: './src/index.js',
     print: './src/print.js',
@@ -18,6 +19,11 @@ module.exports = {
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist')
+  },
+  devtool: 'inline-source-map',
+  devServer: {
+    port: 9000,
+    open: false,
   },
   plugins:[
     new CleanWebpackPlugin(),
