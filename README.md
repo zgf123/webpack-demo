@@ -7,5 +7,4 @@
 #### 03OutputManagement
 [管理输出](https://www.webpackjs.com/guides/output-management/)
 
-#### 04Development
-[开发](https://www.webpackjs.com/guides/development/)
+#### 04Development [开发](https://www.webpackjs.com/guides/development/)
