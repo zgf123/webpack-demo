@@ -34,6 +34,14 @@ module.exports = {
     hot: false,
     client: false
   },
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader']
+      }
+    ]
+  },
   plugins:[
     new HtmlWebpackPlugin({
       title: 'Hot Module Replacement'
