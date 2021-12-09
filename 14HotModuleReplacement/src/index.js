@@ -8,7 +8,7 @@ function component() {
   // Lodash, now imported by this script
   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
 
-  btn.innerHTML = 'Click me and check the console!';
+  btn.innerHTML = '点我输45出内容';
 
   btn.onclick = printMe;
   element.appendChild(btn);
@@ -20,7 +20,6 @@ document.body.appendChild(component());
 
 if (module.hot) {
   module.hot.accept('./print.js', function() {
-    console.log('接受更新后的 printMe 模块!');
     printMe();
   })
 }

@@ -29,7 +29,6 @@ module.exports = {
     static: './dist',
     port: 9000,
     open: false,
-    // hot: true,
     hot: false,
     client: false
   },
@@ -37,6 +36,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'Hot Module Replacement'
     }),
-    new webpack.HotModuleReplacementPlugin(),
+    new webpack.HotModuleReplacementPlugin()
   ]
 };
