@@ -8,7 +8,7 @@ function component() {
   // Lodash, now imported by this script
   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
 
-  btn.innerHTML = '点我输45出内容';
+  btn.innerHTML = '点我输4出内容';
 
   btn.onclick = printMe;
   element.appendChild(btn);
@@ -16,10 +16,13 @@ function component() {
   return element;
 }
 
-document.body.appendChild(component());
+let element = component(); // 当 print.js 改变导致页面重新渲染时，重新获取渲染的元素
+document.body.appendChild(element);
 
 if (module.hot) {
   module.hot.accept('./print.js', function() {
-    printMe();
+    document.body.removeChild(element);
+    element = component();
+    document.body.appendChild(element);
   })
 }
