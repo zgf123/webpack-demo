@@ -8,7 +8,7 @@ function component() {
   // Lodash, now imported by this script
   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
 
-  btn.innerHTML = '点我输4出内容';
+  btn.innerHTML = '点我输出内容';
 
   btn.onclick = printMe;
   element.appendChild(btn);

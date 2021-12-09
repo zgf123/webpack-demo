@@ -12,12 +12,14 @@ console.log(consoleGreen, '-------------------');
 
 module.exports = {
   mode: 'development',
-  entry: {
-    app: './src/index.js',
-    // 为HMR提供手动入口点:
-    hot: 'webpack/hot/dev-server.js',
-    client: 'webpack-dev-server/client/index.js?hot=true&live-reload=true',
-  },
+  entry: [
+    // Runtime code for hot module replacement
+    'webpack/hot/dev-server.js',
+    // Dev server client for web socket transport, hot and live reload logic
+    'webpack-dev-server/client/index.js?hot=true&live-reload=true',
+    // Your entry
+    './src/index.js',
+  ],
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
