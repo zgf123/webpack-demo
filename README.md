@@ -12,6 +12,6 @@
 
 #### 05Development [代码分离](https://webpack.docschina.org/guides/code-splitting/)
 
-#### 14HotModuleReplacement [模块热更新](https://webpack.js.org/guides/hot-module-replacement/)
+#### 14HotModuleReplacement [模块热更新](https://webpack.docschina.org/guides/hot-module-replacement/)
 `webpack`、`webpack-cli`、`html-webpack-plugin`、`clean-webpack-plugin`、`webpack-dev-server`、`webpack-dev-middleware`
 
