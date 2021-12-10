@@ -9,6 +9,12 @@ function component() {
 
   btn.innerHTML = 'Click me and check the console!';
 
+  btn.onclick = () => {
+    import(/* webpackPrefetch:true */'./click.js').then((module) => {
+      module.default()
+    })
+  }
+
   element.appendChild(btn);
 
   return element;
