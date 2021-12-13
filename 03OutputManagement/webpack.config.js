@@ -11,6 +11,7 @@ console.log(consoleRed, '03OutputManagement')
 console.log(consoleGreen, '-------------------');
 
 module.exports = {
+  mode: 'development',
   entry: {
     app: './src/index.js',
     print: './src/print.js',
