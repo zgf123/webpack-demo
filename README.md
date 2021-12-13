@@ -12,8 +12,8 @@
 
 #### 05Development [代码分离](https://webpack.docschina.org/guides/code-splitting/)
 
-#### 05Caching [缓存](https://webpack.docschina.org/guides/caching/)
+#### 06Caching [缓存](https://webpack.docschina.org/guides/caching/)
+
+#### 07AuthoringLibraries [创建 library](https://webpack.docschina.org/guides/author-libraries/)
 
 #### 14HotModuleReplacement [模块热更新](https://webpack.docschina.org/guides/hot-module-replacement/)
-`webpack`、`webpack-cli`、`html-webpack-plugin`、`clean-webpack-plugin`、`webpack-dev-server`、`webpack-dev-middleware`
-
