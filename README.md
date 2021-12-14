@@ -19,3 +19,5 @@
 #### 08、Dependency Management [依赖管理](https://webpack.docschina.org/guides/dependency-management/)
 
 #### 09、Hot Module Replacement [模块热更新](https://webpack.docschina.org/guides/hot-module-replacement/)
+
+#### 10、Tree Shaking [Tree Shaking](https://webpack.docschina.org/guides/tree-shaking/)
