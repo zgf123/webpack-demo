@@ -5,7 +5,7 @@ const consoleRed = '\x1b[91m'
 const consoleGreen = '\033[32m'
 
 console.log(consoleGreen, '-------------------');
-console.log(consoleRed, '14HotModuleReplacement')
+console.log(consoleRed, '09HotModuleReplacement')
 console.log(consoleGreen, '-------------------');
 
 module.exports = {
