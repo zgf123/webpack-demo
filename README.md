@@ -18,4 +18,4 @@
 
 #### 08、Dependency Management [依赖管理](https://webpack.docschina.org/guides/dependency-management/)
 
-#### 14、Hot Module Replacement [模块热更新](https://webpack.docschina.org/guides/hot-module-replacement/)
+#### 09、Hot Module Replacement [模块热更新](https://webpack.docschina.org/guides/hot-module-replacement/)
