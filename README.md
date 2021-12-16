@@ -23,3 +23,5 @@
 #### 10、Tree Shaking [Tree Shaking](https://webpack.docschina.org/guides/tree-shaking/)
 
 #### 11、Production [生产环境](https://webpack.docschina.org/guides/production/)
+
+#### 12、Lazy Loading [懒加载](https://webpack.docschina.org/guides/lazy-loading/)
