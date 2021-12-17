@@ -25,3 +25,5 @@
 #### 11、Production [生产环境](https://webpack.docschina.org/guides/production/)
 
 #### 12、Lazy Loading [懒加载](https://webpack.docschina.org/guides/lazy-loading/)
+
+#### 13、Shimming [Shimming 预置依赖](https://webpack.docschina.org/guides/shimming/)
