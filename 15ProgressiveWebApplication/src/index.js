@@ -1,3 +1,4 @@
+console.log(import.meta.url);
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {

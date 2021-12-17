@@ -13,7 +13,7 @@ console.log(consoleGreen, '-------------------');
 module.exports = {
   mode: 'development',
   entry: {
-    app: './src/index.js',
+    app: ['./src/index.js', './src/print.js'],
   },
   output: {
     filename: '[name].bundle.js',
